@@ -1,11 +1,9 @@
 # Traveling-Salesman-Problem-Heuristics
 
 Traveling salesman problem (large)
-The code implemets a heuristic for the TSP, rather than an exact algorithm, and as a result will be able to handle much larger problem sizes. Here is a data file describing a TSP instance (original source: http://www.math.uwaterloo.ca/tsp/world/bm33708.tsp).
+The code implemets a heuristic for the TSP, rather than an exact algorithm, and as a result will be able to handle much larger problem sizes.
 
 The first line indicates the number of cities. Each city is a point in the plane, and each subsequent line indicates the x- and y-coordinates of a single city.
-
-The distance between two cities is defined as the Euclidean distance --- that is, two cities at locations (x,y) and (z,w) have distance ((x − z) ^ 2 + (y − w) ^ 2) ^ (1 / 2) between them.
 
 the nearest neighbor heuristic:
 
